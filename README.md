@@ -15,15 +15,15 @@ This project was done to showcase the following skills:
 #### Preprocessing
 - What variable(s) are considered the target(s) for your model?
 
-    The "IS_SUCCESSFUL" column is the target for the model. 
+    The **"IS_SUCCESSFUL"** column is the target for the model. 
 
 - What variable(s) are considered to be the features for your model?
 
-    The "APPLICATION_TYPE, AFFLIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, AND ASK_AMT" columns are all features for the model.
+    The **"APPLICATION_TYPE, AFFLIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, AND ASK_AMT"** columns are all features for the model.
 
 - What variable(s) are neither targets nor features, and should be removed from the input data?
 
-    The EIN and Name variables were removed because they were neither targets nor features for the model.
+    The **EIN and NAME** variables were removed because they were neither targets nor features for the model.
 
 #### Compile, Train, and Evaluate
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
